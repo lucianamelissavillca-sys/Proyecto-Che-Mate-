@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi pagina web</title>
+</head>
+<body>
+    <nav>
+        <a href="#imagen">Ir a la imagen</a>
+        <a href= "#formulario">Ir al formulario</a>
+      <a href="#mapa">Ir al mapa</a>
+    </nav>
+    <section id="imagen">
+        <img src="https://i.pinimg.com/originals/a6/9e/28/a69e281fa82e9ec6ccc06da80e8806a2.png" alt="Imagen">
+    </section>
+    <section> id="formulario">
+        <form>
+            <input type="text" placeholder="Nombre">
+            <br></br>
+            <input type="email" placeholder="Correo electronico">
+            <br></br>
+            <textarea placeholder="Mensaje"></textarea>
+            <br></br>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    <section id="mapa">
+        <iframe src="https://municipiosycomunas.com.ar/wp-content/uploads/2018/08/me-9.jpg" with="400" height="300"></iframe>
+</body>
+
+</html>

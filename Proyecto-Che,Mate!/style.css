@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #4a7c59;
+    padding: 20px;
+ }
+ .navbar-brand {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .nav-link {
+    color: green;
+    margin-left: 20px;
+    transition: 0.4s;
+ }
+ .nav-link:hover {
+    color: #d9ed92;
+ }
+ .hero{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+ }
+ .hero-contenido{
+    background-color: #4a7c59;
+    padding: 45px;
+    border-radius: 20px;
+ }
+ .hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+ }
