@@ -11,19 +11,19 @@
  <header>
      <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"> Che,Mate! </a>
+    <a class="navbar-brand" href="index.html"> Che,Mate! </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="productos.html">Productos</a>
+          <a class="nav-link active" href="productos.html">Productos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Contacto">
@@ -31,7 +31,7 @@
           </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#"> </a>
+            <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#carrito" >Carrito</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -105,16 +105,22 @@
 </section>
 <footer class="bg-dark text-white text-center py-4">
 <div class="container">
-<h5>Che,Mate!</h5>
-<p> Moda y estilo para todos los dias</p>
-<div class="mb-3">
-  <a href="#" class="text-white me-3">Instagram</a>
-  <a href="#" class="text-white me-3">Facebook</a>
-  <a href="#" class="text-white">Tiktok</a>
-</div>
-<p>Contacto: 381-000-0000</p>
-<p>Medios de pago: Visa | Mastercad | Efectivo | Mercado Pago</p>
-<small>2026 Che,Mate! - Todos los derechos reservados.</small>
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <h5>Che,Mate!</h5>
+      <p>Moda y Estilo para todos los dias</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <h5>Contacto</h5>
+      <p>contacto@chemate.com</p>
+      <p>+54 381 123-4567</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <h5>Seguinos</h5>
+      <p>Instagram | Facebook | Tiktok</p>
+    </div>
+  </div>
+  <p class="text-center mb-0"> 2026 Che,Mate!</p>
 </div>
 </footer>
 </main>
